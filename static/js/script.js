@@ -37,8 +37,8 @@ function scrollToBottomOfResults() {
 function send(message) {
 	console.log("User Message:", message)
 	$.ajax({
-		//url: 'https://rasa-chatter.herokuapp.com/webhooks/rest/webhook',
-		url: 'http://127.0.0.1:5005/webhooks/rest/webhook',
+		url: 'https://rasa-chatter.herokuapp.com/webhooks/rest/webhook',
+		//url: 'http://127.0.0.1:5005/webhooks/rest/webhook',
 		type: 'POST',
 		crossDomain: true,
 		contentType: 'application/json',
